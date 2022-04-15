@@ -19,6 +19,49 @@
     .ladrilho .ladrilho-cafe{
         width: 50%;
     }
+
+    .contato{
+        background-image: none;
+        background-color: rgb(212, 171, 67);
+    }
+    .contato .texto{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .contato .texto h2{
+        margin: 0px 0px 45px;
+    }
+}
+
+@media (max-width: 728px){
+    .rodape{
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+
+    .rodape .logo{
+        display: block;
+    }
+    .rodape ul{
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+    .rodape ul li{
+        display: block;
+    }
+    .rodape ul li a{
+        font-size: 2rem;
+    }
+    .rodape .conteudo-de-baixo .redes-sociais{
+        float: none;
+        margin-bottom:28px ;
+    }
 }
 
 @media (max-width: 425px){
